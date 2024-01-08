@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 1320px;
+    margin: 0 auto;
+}
+.bg-image{
+    position: relative;
+    background-image:
+        linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/BannerImage.png');
+        background-size: cover;
+        width: 1320px;
+        height: 600px;
+        border-radius: 16PX;
+
+}
+
+.overlay{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.offer{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    font-family: Inter;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    
+}
+#discount{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+#chant{
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
+}
+#CATEGORIES{
+    color:#070211;
+    font-size: 42px;
+    font-weight: 700;
+}
