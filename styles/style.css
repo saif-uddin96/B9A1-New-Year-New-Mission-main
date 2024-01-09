@@ -6,7 +6,7 @@
     width: 1320px;
     margin: 0 auto;
 }
-.bg-image{
+.division-1{
     position: relative;
     background-image:
         linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/BannerImage.png');
@@ -29,7 +29,7 @@
     height: 100%;
 }
 
-.offer{
+.division-2{
     width: 100%;
     height: 100%;
     background-color: #fff;
@@ -40,18 +40,141 @@
     align-items: center;
     
 }
-#discount{
+.discount{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
 }
-#chant{
+.chant{
     color: #F00;
     font-size: 22px;
     font-weight: 500;
 }
-#CATEGORIES{
+.CATEGORIES{
     color:#070211;
     font-size: 42px;
     font-weight: 700;
 }
+
+.division-3{
+background-image:
+linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+background-size: cover;
+        width: 1320px;
+        height: 600px;
+        border-radius: 16PX;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.text{
+ color: #fff;
+
+}
+.img{
+ padding-right: 65px;
+ width: 319.83px;
+height: 464.662px;
+
+}
+.div3-headtag{
+    font-family: Merriweather;
+    font-size: 50px;
+    padding-left: 35px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+.paragraph{
+    padding-left: 35px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.80);
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.join-btn{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding-left: 45px;
+}
+.division-4{
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.div4-text{
+    text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+padding-top: 100px;
+}
+
+.coloring{
+    color: #F00;
+}
+.btn{
+    cursor: pointer;
+    background-color: #F00;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+.division-5{
+    width: 1600px;
+height: 7335px;
+}
+.dive-5-text{
+  
+}
+
+.row{
+   border-radius: 16px;
+
+}
+.division-5 h1{
+    color: #070211;
+    ont-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.division-5 h3{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.division-5 p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.row{
+    transform: 0.3s ease-in-out;
+}
+.row img:hover{
+    transform: scale(1.1);
+}
+    
